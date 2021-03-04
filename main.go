@@ -10,6 +10,6 @@ func New() http.Handler {
 }
 
 func (this *AddHeader) ServeHTTP(writer http.ResponseWriter, req *http.Request) {
-	writer.Header().Add("name", "jtheader-22")
+	writer.Header().Add("name", "jtheader")
 
 }
