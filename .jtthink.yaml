@@ -1,4 +1,5 @@
 name: myheader
 import: github.com/shenyisyn/jtheader
 package: jtheader
+version: v0.1.0
 summary: 'myheader from jtthink--new'
