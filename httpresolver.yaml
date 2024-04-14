@@ -1,0 +1,13 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: echo-task1
+  #TODO 本课程来自 程序员在囧途(www.jtthink.com) 咨询群：98514334 专注golang、k8s云原生技术栈
+spec:
+  steps: #pod 中定义容器
+    - name: echo1
+      image: alpine:3.15
+      script: |
+        #!/bin/sh
+        echo "this is echo-task1111"
+    #TODO 本课程来自 程序员在囧途(www.jtthink.com) 咨询群：98514334 专注golang、k8s云原生技术栈
